@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(199, 199, 199);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.logo-image img{
+    width: 50%;
+    padding: 1%;
+}
+.logo-image{
+    width: 30%;
+}
+.option{
+    width: 70%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+.option a{
+    text-decoration: none;
+    color: #000;
+}
+.option a:hover{
+    color: rgb(27, 143, 252);
+    transition: 0.3s;
+}
+.main-bg img{
+    width: 100%;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.display1{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(27, 143, 252);
+}
+.display1:hover{
+    background-color: orangered;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.display2{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(27, 143, 252);
+}
+.display2:hover{
+    background-color: orangered;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.display3{
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(27, 143, 252);
+}
+.display3:hover{
+    background-color: orangered;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+.footer{
+    text-align: center;
+    margin-top: 2%;
+    height: 100%;
+    background-color: white;
+}
+.footer p{
+    padding-top: 1%;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-top: 1%;
+    width: 100%;
+    gap: 5%;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5%;
+}
+.footer-link a:hover{
+    color: rgb(27, 143, 252);
+    transition: 0.3s;
+}
+.form-bg{
+    margin-top: 2%;
+}
+.form-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    font-size: larger;
+}
+input{
+    width: 70%;
+    font-size: 15px;
+    padding: 1%;
+}
+select{
+    width: 72.2%;
+    font-size: 90%;
+    padding: 1%;
+}
+option{
+    padding: 2%;
+    
+}
+input .message{
+    height: 30%;
+}
+.form-content textarea{
+    width: 70%;
+    height: 140px;
+    font-size: 20px;
+    padding: 1%;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+}
+.button button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(27, 143, 252);
+    width: 10%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+@media (max-width: 670px) {
+    .button{
+        display: flex;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    .button button{
+        width: 100%;
+    }
+    .navbar{
+        display: block;
+        flex-direction: row;
+        
+    }
+    .logo-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-image img{
+        width: 30%;
+    }
+    .option a{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 1px black solid;
+        width: 100%;
+        margin: 2%;
+        padding: 1%;
+        padding-bottom: 3%;
+    }
+    .option{
+        display: block;
+        flex-direction: column;
+        width: 95%;
+        
+        
+    }
+    .display{
+        display: block;
+        flex-direction: column;
+        margin: 2%;
+    }
+    .display1{
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 3%;
+    }
+    .display2{
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 3%;
+    }
+    .display3{
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 3%;
+    }
+    .form-content{
+        display: block;
+    }
+    .form-content p{
+        padding-bottom: 2%;
+    }
+    input{
+        width: 97.5%;
+    }
+    select{
+        width: 100%;
+    }
+    .form-content textarea{
+        width: 97.5%;
+    }
+    .footer{
+        height: 100%;
+    }
+}
